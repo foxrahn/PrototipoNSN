@@ -255,6 +255,10 @@ font-family: 'Francois One', ; nsn
     width: 100%;
     margin: 10% 2% 0 2%; 
 }
+    #home img{
+        width: 70%;
+        height: auto;
+    }
 }
 
 /*BODY*/
@@ -275,12 +279,15 @@ font-family: 'Francois One', ; nsn
     
 }
 #home img{
-    width: 40%;
+    width: 35rem;
     height: auto;
     display: block;
     text-align: center;
-    margin: 0 30% 0 30%;
-    padding: 50px;
+    margin: 0 auto 0 auto;
+    padding: 70px;
+     text-align: center;
+    align-items: center;
+    justify-content: space-around;
 }
 
 #home h1{
